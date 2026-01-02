@@ -10,15 +10,15 @@ This repository documents the complete step-by-step procedures followed during D
 Focus: Lab exams, hands-on execution, and real-world DevOps workflows.
 📌 Tech Stack Covered
 
-Git & GitHub
+- Git & GitHub
 
-Docker
+- Docker
 
-Jenkins
+- Jenkins
 
-Terraform
+- Terraform
 
-AWS (IAM, EC2, S3)
+- AWS (IAM, EC2, S3)
 
 1️⃣ Git – Version Control
 🔹 Install Git (Ubuntu)
@@ -144,13 +144,13 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 🔹 Jenkins Freestyle Job (Lab Standard)
 
-New Item → Freestyle Project
+- New Item → Freestyle Project
 
-Source Code Management → Git
+- Source Code Management → Git
 
-Enter GitHub Repo URL
+- Enter GitHub Repo URL
 
-Build Step → Execute Shell
+- Build Step → Execute Shell
 ```
 echo "Build Successful"
 ```
@@ -279,24 +279,24 @@ Don’t rush
 
 Examiner Focus Areas:
 
-Git → commit & push
+- Git → commit & push
 
-Docker → build & run
+- Docker → build & run
 
-Jenkins → successful build
+- Jenkins → successful build
 
-Terraform → apply
+- Terraform → apply
 
-AWS → EC2 / S3 visibility
+- AWS → EC2 / S3 visibility
 
 ❌ Common Lab Failures
 
-Skipping terraform init
+- Skipping terraform init
 
-Jenkins not running on port 8080
+- Jenkins not running on port 8080
 
-Docker permission denied
+- Docker permission denied
 
-Wrong AWS region
+- Wrong AWS region
 
-Missing security group rules
+- Missing security group rules
